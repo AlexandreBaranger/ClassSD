@@ -1,0 +1,79 @@
+{
+    "Sons Vibrants et Continus": {
+        "Buzzing": "Bourdonnement",
+        "Humming": "Ronronnement",
+        "Rumbling": "Grondement",
+        "Whirring": "Vrombissement",
+        "Purring": "Ronronnement"
+    },
+    "Sons Secs et Éclatants": {
+        "Crackling": "Crépitement",
+        "Snapping": "Claquement",
+        "Popping": "Éclatement",
+        "Clicking": "Clic",
+        "Cracking": "Craquement"
+    },
+    "Sons Métalliques": {
+        "Clanging": "Clang",
+        "Clinking": "Tintement",
+        "Ringing": "Sonnerie",
+        "Tinkling": "Tintement",
+        "Chiming": "Carillon"
+    },
+    "Sons de Frottement": {
+        "Scraping": "Grattement",
+        "Grinding": "Grincement",
+        "Rubbing": "Frottement",
+        "Sanding": "Ponçage",
+        "Squealing": "Couinement"
+    },
+    "Sons de Mouvement": {
+        "Whooshing": "Sifflement",
+        "Swishing": "Bruissement",
+        "Rustling": "Bruissement",
+        "Whipping": "Claquement",
+        "Flapping": "Claquement"
+    },
+    "Sons de Grondement": {
+        "Roaring": "Rugissement",
+        "Growling": "Grondeur",
+        "Thudding": "Coup sourd",
+        "Thumping": "Battement sourd",
+        "Pounding": "Martèlement"
+    },
+    "Sons Aiguës et Perçants": {
+        "Hissing": "Sifflement",
+        "Screeching": "Cris perçants",
+        "Shrieking": "Hurlement",
+        "Wailing": "Gémissement",
+        "Whining": "Geignement"
+    },
+    "Sons de Bruit de Chute": {
+        "Banging": "Claquement",
+        "Crashing": "Fracas",
+        "Smashing": "Fracassement",
+        "Clattering": "Cliquetis",
+        "Rattling": "Cliquetis"
+    },
+    "Sons de Frottement Légers": {
+        "Rustling": "Bruissement",
+        "Shuffling": "Frottement",
+        "Scuffing": "Frottement léger",
+        "Raspy": "Rugueux",
+        "Crinkling": "Froissement"
+    },
+    "Sons Dissonants": {
+        "Squeaking": "Grincement",
+        "Creaking": "Grincement",
+        "Groaning": "Gémissement",
+        "Rasping": "Respiration sifflante",
+        "Buzzing": "Bourdonnement"
+    },
+    "Sons Naturels et Animaliers": {
+        "Chirping": "Gazouillement",
+        "Gurgling": "Glouglou",
+        "Pattering": "Crépitement",
+        "Murmuring": "Murmure",
+        "Growling": "Grondeur"
+    }
+}
