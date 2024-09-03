@@ -21,7 +21,12 @@ def on_validate():
 
     if selected_terms:
         result = ", ".join(selected_terms)
-        messagebox.showinfo("Traductions", f"Termes en anglais : {result}")
+        
+        # Copier le résultat dans le presse-papiers
+        root.clipboard_clear()  # Efface le contenu actuel du presse-papiers
+        root.clipboard_append(result)  # Ajoute le résultat au presse-papiers
+
+        messagebox.showinfo("Traductions", f"Termes en anglais : {result}\n\nLe résultat a été copié dans le presse-papiers.")
     else:
         messagebox.showwarning("Aucun terme sélectionné", "Veuillez sélectionner au moins un terme.")
 
