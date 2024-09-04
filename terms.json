@@ -4,76 +4,273 @@
         "Humming": "Ronronnement",
         "Rumbling": "Grondement",
         "Whirring": "Vrombissement",
-        "Purring": "Ronronnement"
+        "Purring": "Ronronnement",
+        "Droning": "Vrombissement",
+        "Thrumming": "Vrombissement continu",
+        "Reverberating": "Réverbération"
     },
     "Sons Secs et Éclatants": {
         "Crackling": "Crépitement",
         "Snapping": "Claquement",
         "Popping": "Éclatement",
         "Clicking": "Clic",
-        "Cracking": "Craquement"
+        "Cracking": "Craquement",
+        "Sizzling": "Grésillement",
+        "Spitting": "Crachat",
+        "Rattling": "Rafale"
     },
     "Sons Métalliques": {
         "Clanging": "Clang",
         "Clinking": "Tintement",
         "Ringing": "Sonnerie",
         "Tinkling": "Tintement",
-        "Chiming": "Carillon"
+        "Chiming": "Carillon",
+        "Jingling": "Grelot",
+        "Tolling": "Sonnerie",
+        "Clattering": "Cliquetis"
     },
     "Sons de Frottement": {
         "Scraping": "Grattement",
         "Grinding": "Grincement",
         "Rubbing": "Frottement",
         "Sanding": "Ponçage",
-        "Squealing": "Couinement"
+        "Squealing": "Couinement",
+        "Scuffing": "Éraflure",
+        "Brushing": "Brossage",
+        "Scratching": "Grattement"
     },
     "Sons de Mouvement": {
         "Whooshing": "Sifflement",
         "Swishing": "Bruissement",
         "Rustling": "Bruissement",
         "Whipping": "Claquement",
-        "Flapping": "Claquement"
+        "Flapping": "Claquement",
+        "Fluttering": "Battement d'ailes",
+        "Whizzing": "Sifflement rapide",
+        "Swirling": "Tourbillonnement"
     },
     "Sons de Grondement": {
         "Roaring": "Rugissement",
         "Growling": "Grondeur",
         "Thudding": "Coup sourd",
         "Thumping": "Battement sourd",
-        "Pounding": "Martèlement"
+        "Pounding": "Martèlement",
+        "Booming": "Boum",
+        "Bellowing": "Beuglement",
+        "Rumbling": "Grondement"
     },
     "Sons Aiguës et Perçants": {
         "Hissing": "Sifflement",
         "Screeching": "Cris perçants",
         "Shrieking": "Hurlement",
         "Wailing": "Gémissement",
-        "Whining": "Geignement"
+        "Whining": "Geignement",
+        "Squealing": "Couinement",
+        "Yelping": "Jappement",
+        "Blaring": "Retentissement"
     },
     "Sons de Bruit de Chute": {
         "Banging": "Claquement",
         "Crashing": "Fracas",
         "Smashing": "Fracassement",
         "Clattering": "Cliquetis",
-        "Rattling": "Cliquetis"
+        "Rattling": "Cliquetis",
+        "Thumping": "Coup sourd",
+        "Slamming": "Claquement",
+        "Clunking": "Bruissement sourd"
     },
     "Sons de Frottement Légers": {
         "Rustling": "Bruissement",
         "Shuffling": "Frottement",
         "Scuffing": "Frottement léger",
         "Raspy": "Rugueux",
-        "Crinkling": "Froissement"
+        "Crinkling": "Froissement",
+        "Skidding": "Dérapage",
+        "Brushing": "Brossage",
+        "Swishing": "Bruissement léger"
     },
     "Sons Dissonants": {
         "Squeaking": "Grincement",
         "Creaking": "Grincement",
         "Groaning": "Gémissement",
         "Rasping": "Respiration sifflante",
-        "Buzzing": "Bourdonnement"
+        "Buzzing": "Bourdonnement",
+        "Grating": "Grincement",
+        "Wailing": "Gémissement strident",
+        "Twanging": "Vibration métallique"
     },
     "Sons Naturels et Animaliers": {
         "Chirping": "Gazouillement",
         "Gurgling": "Glouglou",
         "Pattering": "Crépitement",
         "Murmuring": "Murmure",
-        "Growling": "Grondeur"
+        "Growling": "Grondeur",
+        "Roaring": "Rugissement",
+        "Bubbling": "Bouillonnement",
+        "Cooing": "Roucoulade",
+        "Howling": "Hurlement",
+        "Barking": "Aboiement",
+        "Meowing": "Miaulement",
+        "Bellowing": "Beuglement",
+        "Croaking": "Coassement",
+        "Crooning": "Chantonnement",
+        "Trilling": "Trille",
+        "Chattering": "Jacassement",
+        "Quacking": "Cancanement",
+        "Hooting": "Hululer",
+        "Bleating": "Bêlement",
+        "Bird Whistling": "Sifflement d'oiseau",
+        "Cawing": "Croassement",
+        "Buzzing Insect": "Insecte bourdonnant"
+    },
+    "Sons d'Eau et de Pluie": {
+        "Dripping": "Goutte à goutte",
+        "Splashing": "Éclaboussement",
+        "Gushing": "Jaillissement",
+        "Pouring": "Déversement",
+        "Raining": "Pluie",
+        "Trickling": "Ruissellement",
+        "Washing": "Lavage",
+        "Wave crashing": "Déferlement de vagues",
+        "Plopping": "Plouf",
+        "Rumbling waves": "Vagues grondantes",
+        "Waterfall": "Cascade",
+        "River flowing": "Écoulement de rivière",
+        "Raindrops": "Gouttes de pluie"
+    },
+    "Sons de Vent": {
+        "Whistling": "Sifflement",
+        "Howling": "Hurlement",
+        "Blowing": "Soufflement",
+        "Rustling": "Bruissement",
+        "Gusting": "Rafale",
+        "Sighing": "Soupir",
+        "Whipping": "Claquement",
+        "Swirling": "Tourbillonnement",
+        "Breezing": "Brise légère"
+    },
+    "Sons d'Impact": {
+        "Thudding": "Coup sourd",
+        "Thwacking": "Coup sec",
+        "Clapping": "Claquement de mains",
+        "Bashing": "Coup violent",
+        "Striking": "Frappe",
+        "Colliding": "Collision",
+        "Pounding": "Martèlement",
+        "Slapping": "Claquement",
+        "Thumping": "Coup sourd",
+        "Punching": "Coup de poing"
+    },
+    "Sons Marrants et Amusants": {
+        "Boing": "Résonance élastique",
+        "Splat": "Éclat",
+        "Zing": "Sifflement rapide",
+        "Pop": "Pop",
+        "Slide whistle": "Glissando sifflement",
+        "Honking": "Klaxon",
+        "Quack": "Cancanement",
+        "Oink": "Grognement de cochon",
+        "Giggle": "Gloussement",
+        "Snort": "Reniflement",
+        "Squish": "Bruissement mou",
+        "Gloop": "Bruissement gluant",
+        "Wobble": "Oscillation",
+        "Fizz": "Effervescence",
+        "Twang": "Résonance métallique",
+        "Gobble": "Glougloutement",
+        "Chomp": "Mastication"
+    },
+    "Sons pour les Personnages": {
+        "Footsteps": "Bruits de pas",
+        "Running footsteps": "Bruits de pas en course",
+        "Tiptoeing": "Pas sur la pointe des pieds",
+        "Stomping": "Pieds qui martèlent",
+        "Sighing": "Soupir",
+        "Grunting": "Gronder",
+        "Whistling": "Sifflement",
+        "Breathing": "Respiration",
+        "Heavy breathing": "Respiration lourde",
+        "Sneezing": "Éternuement",
+        "Coughing": "Toux",
+        "Laughing": "Rire",
+        "Crying": "Pleurs",
+        "Snoring": "Ronflement",
+        "Heartbeat": "Battement de cœur",
+        "Clapping": "Applaudissements",
+        "Finger snapping": "Claquement de doigts",
+        "Door creaking": "Grincement de porte",
+        "Cloth rustling": "Froissement de tissu",
+        "Armor clanking": "Bruissement d'armure",
+        "Chains jingling": "Tintement de chaînes",
+        "Sword unsheathing": "Sortie de l'épée du fourreau",
+        "Sword clashing": "Choc d'épées",
+        "Gun cocking": "Armement d'un pistolet",
+        "Gunshot": "Coup de feu",
+        "Punch": "Coup de poing",
+        "Kick": "Coup de pied",
+        "Body falling": "Corps qui tombe",
+        "Object dropping": "Objet qui tombe"
+    },
+    "Sons d'Éléments Naturels": {
+        "Earthquake": "Séisme",
+        "Landslide": "Glissement de terrain",
+        "Mudslide": "Avalanche de boue",
+        "Dust storm": "Tempête de sable",
+        "Volcanic eruption": "Éruption volcanique",
+        "Fire crackling": "Crépitement du feu",
+        "Fire roaring": "Rugissement du feu",
+        "Ash falling": "Chute de cendres",
+        "Lightning": "Éclair",
+        "Thunder": "Tonnerre",
+        "Hail": "Grêle",
+        "Snowfall": "Chute de neige",
+        "Ice cracking": "Craquement de glace"
+    },
+    "Sons de Matières Sand": {
+        
+            "Sifting": "Sable qui passe à travers",
+            "Shifting": "Changement de sable",
+            "Crunching": "Écrasement de sable",
+            "Scattering": "Éparpillement du sable"
+    },
+    "Sons de Matières ": {
+            "Grinding": "Grincement de pierre",
+            "Clinking": "Tintement de pierre",
+            "Breaking": "Cassure de pierre",
+            "Rolling": "Roulage de pierre",
+            "Crushing": "Écrasement de pierre"
+    },
+    "Wood Sons de Matières ": {
+            "Creaking": "Grincement du bois",
+            "Splintering": "Éclatement du bois",
+            "Knocking": "Coup sur du bois",
+            "Chopping": "Découpage du bois",
+            "Scraping": "Grattement du bois"
+    },
+    "Sons de Matières Metal": {
+            "Clanging": "Clang",
+            "Rattling": "Rafale métallique",
+            "Hammering": "Martèlement du métal",
+            "Dinging": "Ding du métal",
+            "Screeching": "Grincement métallique"
+    },
+    "Sons de Matières Glass": {
+            "Shattering": "Bris de verre",
+            "Tinkling": "Tintement de verre",
+            "Cracking": "Craquement du verre",
+            "Clinking": "Cliquetis du verre"
+    },
+    "Sons de Matières Plastic": {
+            "Crinkling": "Froissement du plastique",
+            "Snapping": "Claquement du plastique",
+            "Crushing": "Écrasement du plastique",
+            "Stretching": "Étirage du plastique"
+    },
+    "Sons de Matières Fabric": {
+            "Rustling": "Bruissement du tissu",
+            "Ripping": "Déchirure du tissu",
+            "Folding": "Pliage du tissu",
+            "Stretching": "Étirement du tissu"
     }
+    
 }

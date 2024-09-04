@@ -1,6 +1,8 @@
 import sys
 import json
-from PyQt5.QtWidgets import QApplication, QMainWindow, QCheckBox, QPushButton, QGridLayout, QWidget, QMessageBox, QScrollArea, QVBoxLayout, QGroupBox
+import os
+import pandas as pd
+from PyQt5.QtWidgets import QApplication, QMainWindow, QCheckBox, QPushButton, QGridLayout, QWidget, QMessageBox, QScrollArea, QVBoxLayout, QGroupBox, QFileDialog
 
 # Charger les termes depuis un fichier JSON structuré
 with open('terms.json', 'r', encoding='utf-8') as file:
@@ -97,19 +99,11 @@ class MainWindow(QMainWindow):
 
     def on_validate(self):
         selected_terms = []
-       # print("Début de la validation...")  # Ligne de débogage
 
         for unique_id, checkbox in self.checkboxes.items():
-            # Vérifier si la case est cochée
-            checkbox_state = checkbox.isChecked()
-            # Impression de débogage pour vérifier les valeurs
-            # print(f"Vérification: ID = {unique_id}, Checked = {checkbox_state}")
-
-            if checkbox_state:
-                # Extraire le terme français de l'ID unique
+            if checkbox.isChecked():
                 fr_term = unique_id.split('_', 1)[1]
                 english_term = terms_fr_to_en.get(fr_term, "Inconnu")
-               # print(f"Termes traduits: {fr_term} -> {english_term}")  # Ajoutez cette ligne pour déboguer
                 selected_terms.append(english_term)
 
         if selected_terms:
@@ -120,8 +114,54 @@ class MainWindow(QMainWindow):
             clipboard.setText(result)
 
             QMessageBox.information(self, "Traductions", f"Termes en anglais : {result}\n\nLe résultat a été copié dans le presse-papiers.")
+
+            # Appel de la fonction search_and_save avec les termes sélectionnés
+            search_and_save(selected_terms)
+
         else:
             QMessageBox.warning(self, "Aucun terme sélectionné", "Veuillez sélectionner au moins un terme.")
+
+# Fonction pour parcourir les fichiers et rechercher les correspondances
+def search_and_save(terms):
+    folder_selected = QFileDialog.getExistingDirectory(None, "Sélectionnez le dossier contenant les fichiers .xlsx")
+    
+    if not folder_selected:
+        return
+    
+    all_results = []
+
+    for root, dirs, files in os.walk(folder_selected):
+        for file in files:
+            if file.endswith('.xlsx'):
+                file_path = os.path.join(root, file)
+                try:
+                    # Lire le fichier Excel sans considérer la première ligne comme un header
+                    df = pd.read_excel(file_path, header=None)
+                    
+                    # Rechercher les termes sélectionnés dans toutes les colonnes
+                    for term in terms:
+                        result = df[df.apply(lambda row: row.astype(str).str.contains(term, case=False).any(), axis=1)]
+                        if not result.empty:
+                            all_results.append(result)
+                
+                except Exception as e:
+                    print(f"Erreur lors de la lecture du fichier {file_path}: {e}")
+    
+    if all_results:
+        # Concaténer tous les résultats en un seul DataFrame sans réinitialiser les index
+        final_df = pd.concat(all_results, ignore_index=True)
+        
+        # Sauvegarder les résultats dans un nouveau fichier .xlsx
+        save_path = QFileDialog.getSaveFileName(None, "Sauvegarder le fichier", "", "Excel files (*.xlsx)")[0]
+        if save_path:
+            # Sauvegarder sans header ni index
+            final_df.to_excel(save_path, index=False, header=False)
+            QMessageBox.information(None, "Succès", "Les résultats ont été sauvegardés avec succès.")
+        else:
+            QMessageBox.warning(None, "Annulé", "La sauvegarde du fichier a été annulée.")
+    else:
+        QMessageBox.information(None, "Aucun résultat", "Aucun terme correspondant n'a été trouvé.")
+
 
 # Lancer l'application
 if __name__ == '__main__':
